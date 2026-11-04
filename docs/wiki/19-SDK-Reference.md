@@ -377,7 +377,7 @@ await lh.richMenus.delete('richmenu-xxxx')
 const links = await lh.trackedLinks.list()
 
 const link = await lh.trackedLinks.create({
-  name: 'LP-A リンク',
+  name: 'ページA リンク',
   originalUrl: 'https://example.com/lp-a',
   tagId: 'tag-uuid',         // クリック時に自動タグ付与
   scenarioId: 'scenario-uuid' // クリック時に自動エンロール

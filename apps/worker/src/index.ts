@@ -99,7 +99,7 @@ app.route('/', adPlatforms);
 app.route('/', staff);
 app.route('/', images);
 
-// Short link: /r/:ref → landing page with LINE open button
+// Short link: /r/:ref → page with LINE open button
 app.get('/r/:ref', (c) => {
   const ref = c.req.param('ref');
   const liffUrl = c.env.LIFF_URL;

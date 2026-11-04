@@ -21,7 +21,7 @@ const liffRoutes = new Hono<Env>();
 /**
  * GET /auth/line — redirect to LINE Login with bot_prompt=aggressive
  *
- * This is THE friend-add URL. Put this on LPs, SNS, ads.
+ * This is THE friend-add URL. Put this on pages, SNS, ads.
  * Query params:
  *   ?ref=xxx     — attribution tracking
  *   ?redirect=url — redirect after completion

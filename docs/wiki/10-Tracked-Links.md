@@ -104,7 +104,7 @@ https://line-crm-worker.line-crm-api.workers.dev/t/{linkId}?f={friendId}
 ```json
 {
   "id": "550e8400-e29b-41d4-a716-446655440000",
-  "name": "セミナーLP",
+  "name": "セミナーページ",
   "originalUrl": "https://example.com/seminar",
   "trackingUrl": "https://line-crm-worker.line-crm-api.workers.dev/t/550e8400-e29b-41d4-a716-446655440000",
   "tagId": "tag-uuid-or-null",
@@ -123,7 +123,7 @@ https://line-crm-worker.line-crm-api.workers.dev/t/{linkId}?f={friendId}
 ```json
 {
   "id": "550e8400-...",
-  "name": "セミナーLP",
+  "name": "セミナーページ",
   "originalUrl": "https://example.com/seminar",
   "trackingUrl": "https://line-crm-worker.line-crm-api.workers.dev/t/550e8400-...",
   "tagId": null,
@@ -168,7 +168,7 @@ curl -X GET "https://line-crm-worker.line-crm-api.workers.dev/api/tracked-links"
   "data": [
     {
       "id": "uuid-1",
-      "name": "セミナーLP",
+      "name": "セミナーページ",
       "originalUrl": "https://example.com/seminar",
       "trackingUrl": "https://line-crm-worker.line-crm-api.workers.dev/t/uuid-1",
       "tagId": "tag-uuid",
@@ -189,7 +189,7 @@ curl -X POST "https://line-crm-worker.line-crm-api.workers.dev/api/tracked-links
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "3月セミナー申込LP",
+    "name": "3月セミナー申込ページ",
     "originalUrl": "https://example.com/seminar-march",
     "tagId": "tag-uuid-seminar-interested",
     "scenarioId": "scenario-uuid-seminar-followup"
@@ -203,7 +203,7 @@ curl -X POST "https://line-crm-worker.line-crm-api.workers.dev/api/tracked-links
   "success": true,
   "data": {
     "id": "new-uuid",
-    "name": "3月セミナー申込LP",
+    "name": "3月セミナー申込ページ",
     "originalUrl": "https://example.com/seminar-march",
     "trackingUrl": "https://line-crm-worker.line-crm-api.workers.dev/t/new-uuid",
     "tagId": "tag-uuid-seminar-interested",
@@ -230,7 +230,7 @@ curl -X GET "https://line-crm-worker.line-crm-api.workers.dev/api/tracked-links/
   "success": true,
   "data": {
     "id": "LINK_UUID",
-    "name": "セミナーLP",
+    "name": "セミナーページ",
     "originalUrl": "https://example.com/seminar",
     "trackingUrl": "https://line-crm-worker.line-crm-api.workers.dev/t/LINK_UUID",
     "tagId": "tag-uuid",

@@ -165,7 +165,7 @@ https://your-worker.your-subdomain.workers.dev/webhook
 ### 7. 動作確認
 
 ```bash
-# 友だち追加URL（これを LP や SNS に貼る）
+# 友だち追加URL（これをページや SNS に貼る）
 https://your-worker.your-subdomain.workers.dev/auth/line?ref=test
 
 # API 疎通確認

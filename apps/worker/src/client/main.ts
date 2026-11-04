@@ -9,7 +9,7 @@
  *   → already friend? → show completion
  *
  * Query params:
- *   ?ref=xxx     — attribution tracking (which LP/campaign)
+ *   ?ref=xxx     — attribution tracking (which page/campaign)
  *   ?redirect=x  — redirect after linking (for wrapped URLs)
  *   ?page=book   — booking page (calendar slot picker)
  */

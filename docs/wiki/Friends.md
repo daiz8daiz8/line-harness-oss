@@ -255,7 +255,7 @@ LINE userId は公式アカウントごとに異なるため、同一人物で�
 
 **運用ルール: 友だち追加 URL は必ず `/auth/line?ref=xxx` を使うこと。**
 
-LP、SNS、広告、全ての導線で `/auth/line` を使えば:
+ページ、SNS、広告、全ての導線で `/auth/line` を使えば:
 - 友だち追加と同時に UUID が自動取得される（`bot_prompt=aggressive`）
 - `ref` パラメータで流入経路も自動追跡される
 - UTM パラメータ（`utm_source`, `utm_medium` 等）も記録される
